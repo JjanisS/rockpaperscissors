@@ -2,26 +2,41 @@
 <html>
 
 <head>
-    <title>Rock, Paper, Scissors</title>
+    <title>>Ready for a game of Rock, Paper, Scissors?👋</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>Rock, Paper, Scissor</h2>
+    <h2>Rock, Paper, Scissors!👋</h2>
     <p>You most likely know the game, but here's a quick recap:</p>
     <li><strong>Rock 🗿</strong> beats scissors ✂️</li>
     <li><strong>Paper 🧻</strong> wraps rock 🗿</li>
     <li><strong>Scissors ✂️</strong> cuts paper 🧻</li>
 
-    <h3>Ready to play? 👋</h3>
-    <div>
+    <h3 class="big">Game on!</h3>
+    <div class="choice">
         <p><strong>Choose wisely:</strong></p>
-        <input type="button" value="🗿">
-        <input type="button" value="🧻">
-        <input type="button" value="✂️">
+        <input type="button" id="rock" value="🗿">
+        <input type="button" id="paper" value="🧻">
+        <input type="button" id="scissors" value="✂️">
     </div>
-    <script>
-    </script>
+    <div class="score">
+        <div>
+            <h3>Round</h3>
+            <p class="round"></p>
+        </div>
+        <div>
+            <h3>My score 😎</h3>
+            <p class="my_score"></p>
+        </div>
+        <div>
+            <h3>Robert the Robot 🤖</h3>
+            <p class="robot_score"></p>
+        </div>
+
+    </div>
+    <div></div>
+    <script type="type" src="gamescript.js"></script>
 </body>
 
 </html>
